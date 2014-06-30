@@ -1,0 +1,2 @@
+include MANIFEST.in
+recursive-include cms_vehicle_catalogue/locale/ru/LC_MESSAGES *
