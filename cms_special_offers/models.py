@@ -1,12 +1,10 @@
 #!/bin/env python
 # -*- coding: utf-8 -*-
-
-from django.db import models
 from cms.models import CMSPlugin, Page
-from filer.fields.image import FilerImageField
+from django.db import models
 from django.utils.translation import ugettext_lazy as _
+from filer.fields.image import FilerImageField
 from hvad.models import TranslatableModel, TranslatedFields
-from cms.models.fields import PlaceholderField
 
 
 class SpecialOffer(TranslatableModel):

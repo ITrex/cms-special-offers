@@ -1,3 +1,8 @@
+#!/bin/env python
+# -*- coding: utf-8 -*-
+
+'django-cms plugin providing special offers functionality.'
+
 import os
 from setuptools import setup
 
@@ -9,9 +14,8 @@ setup(
     version='0.1',
     packages=['cms_special_offers'],
     include_package_data=True,
-    license='BSD License',  # example license
-    description='A simple Django app to conduct Web-based polls.',
-    url='http://www.example.com/',
+    description=locals()['__doc__'],
+    url='https://github.com/ITrex/cms-special-offers/',
     author='Renat Galimov',
     author_email='renat2017@gmail.com',
     classifiers=[
@@ -27,4 +31,13 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
+
+    install_requires=(
+        'django-cms',
+        'Django',
+        'django-filer',
+        'django-hvad',
+        'south'
+    ),
+
 )

@@ -1,10 +1,11 @@
 #!/bin/env python
 # -*- coding: utf-8 -*-
-
+from cms_special_offers.forms import SpecialOfferForm
+from cms_special_offers.models import SpecialOffer
 from django.contrib import admin
 from hvad.admin import TranslatableAdmin
-from cms_special_offers.models import SpecialOffer
-from cms_special_offers.forms import SpecialOfferForm
+
+
 # Register your models here.
 
 
