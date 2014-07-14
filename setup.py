@@ -18,6 +18,9 @@ setup(
     url='https://github.com/ITrex/cms-special-offers/',
     author='Renat Galimov',
     author_email='renat2017@gmail.com',
+
+    zip_safe=False,
+
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
