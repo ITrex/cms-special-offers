@@ -11,16 +11,14 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='cms-special-offers',
-    version='0.1.0.1',
-    packages=['cms_special_offers'],
+    version='0.1.0.2',
+    packages=find_packages(),
+    zip_safe=False,
     include_package_data=True,
     description=locals()['__doc__'],
     url='https://github.com/ITrex/cms-special-offers/',
     author='Renat Galimov',
     author_email='renat2017@gmail.com',
-
-    zip_safe=False,
-
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
